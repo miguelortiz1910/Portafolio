@@ -6,7 +6,7 @@ body{
     height: 60px;
     display: flex;
     margin: 0 auto;
-    background-color:rgb(73, 72, 72);
+    background-color: #742828;
 }
 .a,.b,.c{
     text-align: center;
@@ -29,4 +29,26 @@ body{
 .name{
     text-align: center;
     margin-top:300px;
+}
+
+.projects{
+    width: 50%;
+    margin: 25px auto;
+}
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+        .projects{
+            width: 100%;
+            margin: 25px auto;
+        }
+     }
+.Photo-Album img{
+    width: 100%;
+}
+.Photo-Album img:hover{
+    border: 1px dotted white;
+    opacity: .5;
+    transition-duration: .3s;
 }
